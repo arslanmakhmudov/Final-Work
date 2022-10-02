@@ -1,4 +1,4 @@
-﻿string[] array1 = new string[4] {"456", "8548", "Orlando","Echo"};
+﻿string[] array1 = new string[4] {"Ars", "48", "Orlando","Echo"};
 string[] array2 = new string[array1.Length];
 void array1_checker(string[] array1, string[] array2)
 {
@@ -12,7 +12,7 @@ void array1_checker(string[] array1, string[] array2)
         }
     }
 }
-void print array(string[] array2)
+void PrintArray(string[] array2)
 {
     for (int i = 0; i < array2.Length; i++)
     {
@@ -20,3 +20,5 @@ void print array(string[] array2)
     }
     System.Console.WriteLine();
 }
+array1_checker(array1, array2);
+PrintArray(array2);
